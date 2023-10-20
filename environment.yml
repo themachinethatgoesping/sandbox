@@ -1,0 +1,23 @@
+
+name: ping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - gdal
+  - pip:
+    - themachinethatgoesping
+    - numpy
+    - tqdm
+    - xarray
+    - matplotlib
+    - ipympl
+    - localtileserver
+    - ipyleaflet
+    - leafmap
+    - rioxarray
+    - utm
+    - jupyterlab
+    - nbmake
+    - pytest
